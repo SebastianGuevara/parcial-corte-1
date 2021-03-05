@@ -1,4 +1,7 @@
 package entities;
 
-public class Course {
+public class Course
+{
+    private String shortName;
+    private int credits;
 }

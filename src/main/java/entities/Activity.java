@@ -1,5 +1,8 @@
 package entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Activity {
 
     public static final String ACTIVE_STATE = "active";
@@ -9,7 +12,11 @@ public class Activity {
 
     private String name;
     private String state;
+    private int estimatedDuration;
+
     private Iteration iteration;
+    private List<Log> logs= new ArrayList<>();
+    private List<Student> students = new ArrayList<>();
 
     public Activity(String name, String state, Iteration iteration) {
         this.name = name;

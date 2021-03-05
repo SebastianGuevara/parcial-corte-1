@@ -7,8 +7,12 @@ import java.util.List;
 public class Project {
 
     private String name;
+    private String goal;
     private LocalDate dateInit;
     private LocalDate dateEnd;
+
+    private Student leader;
+    private List<Student> members = new ArrayList<>();
     private Group group;
     private List<Iteration> iterations;
 
