@@ -6,6 +6,8 @@ import java.util.List;
 
 public class Project {
 
+    private LocalDate systemDate = LocalDate.now();
+
     private String name;
     private String goal;
     private LocalDate dateInit;
@@ -43,8 +45,18 @@ public class Project {
      *
      * @return false if the project has open activities or the dateEnd is before than the system date.
      */
-    public boolean isActive() {
-        return false;
+    public boolean isActive()
+    {
+        boolean result = true;
+        for (Iteration i:this.iterations)
+        {
+            if (i.countOpenActivities()!=0||this.dateEnd.isBefore(this.systemDate))
+            {
+                result=false;
+            }
+
+        }
+        return result;
     }
 
 

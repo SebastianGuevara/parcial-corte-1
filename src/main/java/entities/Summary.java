@@ -9,7 +9,11 @@ public class Summary {
     private int openActivities;
     private int closedActivities;
 
-
+    public Summary(int activeP, LocalDate ld)
+    {
+        this.activeProjects = activeP;
+        this.date = ld;
+    }
     public int getActiveProjects() {
         return activeProjects;
     }

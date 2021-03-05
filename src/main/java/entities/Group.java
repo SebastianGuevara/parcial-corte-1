@@ -24,4 +24,18 @@ public class Group {
         this.projects.add(plan);
     }
 
+    public int countActiveProjects()
+    {
+        int count = 0;
+        for (Project p : this.projects)
+        {
+            if (p.isActive())
+            {
+                count++;
+            }
+
+        }
+        return count;
+    }
+
 }
