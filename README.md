@@ -61,6 +61,8 @@ Esto se puede implementar en java con los modificadores tales como: private, sta
 * Modifique el diagrama de secuencia para calcular el número de actividades abiertas y el número de actividades cerradas.
 * Escriba el código necesario y las pruebas para validar esta funcionalidad.
 
+<img src="https://i.imgur.com/U9qLsWw.png">
+
 ## Condiciones
 
 1. Puede encontrar los editables de los diagramas en este [enlace](https://unisabanaedu-my.sharepoint.com/:u:/g/personal/diegopt_unisabana_edu_co/ESYDrd-h2lFDjnEWv7D6qmIBMd89yuTTzS1Q7P4d68IUjQ?e=g9OcpW).
