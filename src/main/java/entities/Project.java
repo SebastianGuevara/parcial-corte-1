@@ -43,14 +43,14 @@ public class Project {
     /**
      * Evaluate if a project is active.
      *
-     * @return false if the project has open activities or the dateEnd is before than the system date.
+     * @return false if the project has not open activities or the dateEnd is before than the system date.
      */
     public boolean isActive()
     {
         boolean result = true;
         for (Iteration i:this.iterations)
         {
-            if (i.countOpenActivities()!=0||this.dateEnd.isBefore(this.systemDate))
+            if (i.countOpenActivities()==0||this.dateEnd.isBefore(this.systemDate))
             {
                 result=false;
             }

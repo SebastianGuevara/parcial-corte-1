@@ -1,6 +1,7 @@
 package entities;
 
 import java.util.ArrayList;
+import java.util.IllegalFormatCodePointException;
 import java.util.List;
 
 public class Activity {
@@ -39,6 +40,29 @@ public class Activity {
             result=true;
         }
         return result;
+    }
+    @Override
+    public boolean equals(Object o)
+    {
+        boolean r = false;
+        if(o==null)
+        {
+            return false;
+        }
+        if(o instanceof Activity)
+        {
+            return false;
+        }
+        Activity A = (Activity) o;
+        if (this.state == "pending")
+        {
+            r = true;
+        }
+        if (this.state=="active")
+        {
+            r = true;
+        }
+        return r;
     }
 
 }
