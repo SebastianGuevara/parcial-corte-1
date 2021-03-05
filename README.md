@@ -23,6 +23,8 @@ Presente el mapa de memoria correspondiente a:
 1. *Lisa* curso con éxito *Programación Básica*. 
 2. *Moe* pertenece al proyecto *Monorriel* y actúa como líder de este proyecto cuyo objetivo es *Mejorar la movilidad de la ciudad*.
 
+<img src="https://i.imgur.com/QJAMPbA.png">
+
 ## II. (35%) CÓDIGO
 
 * Estudie el diagrama de secuencia, las especificaciones de los métodos y la documentación del API Java.
@@ -37,9 +39,20 @@ Presente el mapa de memoria correspondiente a:
 Diseñe un método de la clase EciGrupos (especificación y diagrama de secuencia decorado) que permita inscribir un estudiante a un grupo de interés. No olvide validar las condiciones de inscripción.
 
 ## IV. (20%) Conceptos
+**¿Qué es encapsulamiento? ¿Qué ventajas ofrece?**
 
-1. ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?
-2. ¿Qué es ocultación de información? ¿Por qué aplicarla? ¿Cómo se implementa en Java?
+El encapsulamiento se refiere cuando se define los atributos y los métodos dentro de un mismo conjunto.(Clases)
+
+Las ventajas que ofrece el encapsulamiento es tener un mejor entendimiento del código, y a la larga poder darle mantenimiento de una manera mas fácil y efectiva.
+
+**¿Qué es ocultación de información? ¿Por qué aplicarla? ¿Cómo se implementa en Java?**
+
+La ocultación de información se refiere a cuando hay atributos privados en otra clase y las otras clases no pueden ni verla o editarla, en otras palabras se oculta el atributo. Además se podría decir que la ocultación de información está dentro del encapsulamiento.
+
+Al igual que el encapsulamiento, la ocultación de información se usa para tener un código más limpio y fácil de mantener. Además tambien proporciona un mejor nivel de entendimiento del código, para que las demás personas puedan entenderlo fácil.
+
+Esto se puede implementar en java con los modificadores tales como: private, static, final, entre otros.
+
 
 ## V. (20%) Bono
 
