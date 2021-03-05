@@ -38,6 +38,8 @@ Presente el mapa de memoria correspondiente a:
 
 Diseñe un método de la clase EciGrupos (especificación y diagrama de secuencia decorado) que permita inscribir un estudiante a un grupo de interés. No olvide validar las condiciones de inscripción.
 
+<img src="https://i.imgur.com/iUQj5Xv.png">
+
 ## IV. (20%) Conceptos
 **¿Qué es encapsulamiento? ¿Qué ventajas ofrece?**
 
