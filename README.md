@@ -7,7 +7,7 @@ La Universidad de la Sabana quiere desarrollar un sistema de información para l
 * **Crear proyectos:** Los líderes de los grupos se encargan de aprobar los proyectos propuestos por los estudiantes miembros. Los proyectos son ejecutados por varios estudiantes y se encuentran divididos en iteraciones, cada iteración tiene un conjunto de actividades. 
 * **Evaluar proyectos:** Los líderes evalúan periódicamente el estado de avance de cada una de las actividades: el resultado de estas evaluaciones quedan en el log de seguimiento de las mismas. Las actividades pueden estar en cuatro diferentes estados: *pending*, *active*, *canceled*, *closed*. Cuando todas las actividades han finalizado se considera que un proyecto está terminado.
 
-![](img/classes-diagram.svg)
+<img src="https://i.imgur.com/3jUcOCA.png">
 
 ## I. (25%) MEMORIA
 
