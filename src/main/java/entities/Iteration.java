@@ -23,9 +23,18 @@ public class Iteration {
         project.addIteration(this);
     }
 
+    /**
+     * Añade actividades a la lista
+     * @param activity
+     */
     public void addActivity(Activity activity) {
         this.activities.add(activity);
     }
+
+    /**
+     * Cuenta las actividades abiertas
+     * @return el número de actividades abiertas
+     */
     public int countOpenActivities()
     {
         int count=0;
@@ -38,6 +47,10 @@ public class Iteration {
         }
         return count;
     }
+    /**
+     * Cuenta las actividades cerradas
+     * @return el número de actividades cerradas
+     */
     public int countClosedActivities()
     {
         int count=0;

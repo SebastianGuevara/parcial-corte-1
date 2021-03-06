@@ -24,6 +24,11 @@ public class Group {
         this.projects.add(plan);
     }
 
+    /**
+     * Cuenta los proyectos activos
+     *
+     * @return número de proyectos activos
+     */
     public int countActiveProjects()
     {
         int count = 0;
@@ -33,7 +38,6 @@ public class Group {
             {
                 count++;
             }
-
         }
         return count;
     }
