@@ -38,6 +38,8 @@ Presente el mapa de memoria correspondiente a:
 
 Diseñe un método de la clase EciGrupos (especificación y diagrama de secuencia decorado) que permita inscribir un estudiante a un grupo de interés. No olvide validar las condiciones de inscripción.
 
+<img src="https://i.imgur.com/iUQj5Xv.png">
+
 ## IV. (20%) Conceptos
 **¿Qué es encapsulamiento? ¿Qué ventajas ofrece?**
 
@@ -58,6 +60,8 @@ Esto se puede implementar en java con los modificadores tales como: private, sta
 
 * Modifique el diagrama de secuencia para calcular el número de actividades abiertas y el número de actividades cerradas.
 * Escriba el código necesario y las pruebas para validar esta funcionalidad.
+
+<img src="https://i.imgur.com/U9qLsWw.png">
 
 ## Condiciones
 
