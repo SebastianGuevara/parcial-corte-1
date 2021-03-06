@@ -82,6 +82,14 @@ public class SabanaResearchTest {
         assertNotNull(summary.getDate(), "Validate summary date.");
         assertEquals(summary.getActiveProjects(), 2, "Validate number of active projects");
         assertEquals(sabanaResearch.countOfSummaries(), 1, "The default count of summaries");
+    }@Test
+    @DisplayName("GIVEN sabana research WHEN open a project by dates and create summary THEN a new summary is created")
+    public void shouldCountClosedActivities()
+    {
+        Iteration i1 = new Iteration("Pasar el parcial",new Project("A",LocalDate.now(),LocalDate.now().plusDays(1),new Group("ba")));
+        Activity a1 = new Activity("TENGO MIEDO","closed",i1);
+        Activity a2 = new Activity("TENGO MIEDO","active",i1);
+        assertEquals(1, i1.countClosedActivities());
     }
 
 }

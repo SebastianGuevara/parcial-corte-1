@@ -13,6 +13,8 @@ public class Iteration {
     private Project project;
     private List<Activity> activities;
 
+
+
     public Iteration(String goal, Project project) {
         this.goal = goal;
         this.project = project;
@@ -30,6 +32,18 @@ public class Iteration {
         for (Activity a:this.activities)
         {
             if (a.isActive())
+            {
+                count++;
+            }
+        }
+        return count;
+    }
+    public int countClosedActivities()
+    {
+        int count=0;
+        for (Activity a:this.activities)
+        {
+            if (!a.isActive())
             {
                 count++;
             }
